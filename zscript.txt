@@ -1,0 +1,27 @@
+version "4.5"
+
+class NoCork:SpentCork replaces SpentCork{
+	states{
+	spawn:
+        TNT1 A 0;
+		stop; 
+	}
+}
+
+class SpentMonster:SpentBottle replaces SpentBottle{
+	default{
+		alpha 1;renderstyle "translucent";
+	}
+	states{
+	spawn:
+		BON1 A 0;
+		goto spawn2;
+	death:
+	---- A 100{
+	if(random(0,7))roll=randompick(90,270);else roll=0;
+			if(roll==270)scale.x*=-1;
+		}
+		---- A -1;
+		stop;
+	}
+}

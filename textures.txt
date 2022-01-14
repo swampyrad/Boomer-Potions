@@ -1,0 +1,37 @@
+sprite PSTRA0,24,48{
+	offset 12,48
+	patch PSTRA0,0,0{}
+}
+sprite STIMA0,9,21{
+	offset 4,21
+	patch STIMA0,0,0{}
+}
+
+sprite SYRBA0,48,24{
+	offset 24,18
+	patch SYRBA0,0,0{}
+}
+sprite SYRGA0,21,9{
+	offset 10,9
+	patch SYRGA0,0,0{}
+}
+
+sprite BON1A0,16,44{
+	offset -1,40
+	patch BON1A0,0,0{}
+}
+
+sprite BON1B0,16,44{
+	offset -1,40
+	patch BON1B0,0,0{}
+}
+
+sprite BON1C0,16,44{
+	offset -1,40
+	patch BON1C0,0,0{}
+}
+
+sprite BON1D0,16,44{
+	offset -1,40
+	patch BON1D0,0,0{}
+}
